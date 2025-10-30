@@ -10,17 +10,17 @@
 
 <body>
     <header>
-        <div class="header-top">
-            <a href="index.html">
-                <img class="logo" src="./assets/logo.png" alt="Logo Overlegplatform AD">
-            </a>
+
             <a href="niks.html">
                 <img class="contact" src="./assets/contact.png" alt="Contact">
             </a>
         </div>
 
         <nav>
-            
+                        
+                <img class="logo1" src="./assets/logo.png" alt="Logo Overlegplatform AD">
+            </a>
+
                 <a href="niks.html">Home</a>
                  <a href="niks.html">Thema's</a>
                  <a href="niks.html">Doorstroom</a>
@@ -31,6 +31,8 @@
                  <a href="niks.html">Nieuws & Evenementen</a> 
             
         </nav>
+                <hr class="bar">
+
     </header>
 
     <main>
@@ -70,30 +72,27 @@
             </article> 
         </div>
          <section>
-            <h2>Wat weet je over AD-opleidingen?</h2>
-                <p>
-                 Associate degrees (Ad’s) zijn tweejarige hbo-opleidingen die opleiden tot beroepskwalificerend
-                 eindonderwijs. Het eindniveau van de Ad sluit aan op EQF-/NLQF-niveau 5 en op de Dublin descriptoren
-                 short cycle. Een korte samenvatting over de Associate degree wordt gegeven in de factsheet van
-                 Vereniging Hogescholen.
-                 <br><br>
-                 Het Overlegplatform Associate degrees is opgericht in 2019 en biedt een platform voor iedereen die
-                 geïnteresseerd is in Ad-onderwijs. Alle bekostigde hogescholen die Ad-opleidingen aanbieden of dit
-                 willen gaan doen, kunnen deelnemen aan het platform. Het platform stimuleert naamsbekendheid en
-                 kennisdeling over de Associate degree. Het platform doet dit met en vanuit Vereniging Hogescholen en zet
-                 zich in om samenwerking te bevorderen tussen onderwijs- en werkveldpartners en de overheid om de Ad te
-                 positioneren in Nederland. Ook ondersteunt het platform de Landelijke Ad-overleggen (LAdO’s) waarin
-                 samengewerkt wordt aan de gezamenlijke profilering van de vergelijkbare Ad-opleidingen.
-                </p>
-            <button type="button">Lees meer</button>
+            <h2>Wat weet je over AD-opleidingen? <button popovertarget="popup"><img class="info-icon" src="./assets/info.png"></h2></button>
 
-            <img class="team" src="./assets/team.png" alt="Teamfoto">
+<dialog popover id="popup">
+  <p>Associate degrees (Ad’s) zijn tweejarige hbo-opleidingen die opleiden tot beroepskwalificerend
+    eindonderwijs. Het eindniveau van de Ad sluit aan op EQF-/NLQF-niveau 5 en op de Dublin descriptoren
+                 short cycle. <a href="niks.html">Lees Meer</a></p>
+
+  <button popovertarget="popup" popovertargetaction="hide">Sluiten</button>
+</dialog>
+
+<style>
+dialog::backdrop {
+  background: rgb(0 0 0 / 50%);
+}
+</style>
+
+
         </section>
 
          <section>
-            <h2>AD-opleidingen zijn voor iedereen</h2>
-            <p>Wij proberen het voor jou zo makkelijk mogelijk te maken om jouw AD-opleiding te vinden.</p>
-        </section>
+
         
         <br><br>
         <br><br>
