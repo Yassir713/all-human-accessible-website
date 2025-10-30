@@ -19,6 +19,10 @@ nav a{
     text-decoration: none;
 }
 
+main {
+    text-align: center;
+}
+
 footer{
     background-color: #00696b;
     width: 100%;
@@ -47,6 +51,47 @@ footer a h3{
     margin: 0 auto;
 }
 
+#reminder-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reminder {
+    display: inline-flex;
+    width: 423px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.meer {
+    color: white;
+    text-decoration:none;
+    border: 1px solid #0044ff;
+    border-radius: 4px;
+    background-color: #0044ff;
+    padding: 1px 1px;
+    width: 20%;
+    display: ;
+    text-align: center;
+}
+
+.date{
+    border: 4px solid #a9fff6;
+    border-radius: 30px;
+    display:inline-flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #a9fff6;
+    margin-top: 10px;   
+    text-align: center;
+    padding: 5px;
+}
+
 .thema, .profielen, .nieuws {
     width: 300px;
     height: auto;
@@ -55,8 +100,8 @@ footer a h3{
 .bar{
     background-color: #00696b;
     width: 100%;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding-top: 1px;
+    
 }
 
 .knop{
@@ -106,19 +151,14 @@ footer a h3{
     border-radius: 50px;
     display: block;
     justify-content: center;
-    height: auto;
     margin-bottom: 200px;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
     background-color: #a9fff6;
-    background-repeat: no-repeat;
     margin-top: 140px;   
     text-align: center;
     padding: 1em;
-}
-.center{
-    text-align: center;
 }
 
 @media (max-width: 325px) {
