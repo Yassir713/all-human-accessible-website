@@ -4,12 +4,22 @@ body{
     padding: 0;
 }
 
-nav {
-    background-color: #ffffff;
-    width:100%;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+nav{
+     display: flex;
+     flex-wrap: wrap;
+}
+
+.nav-items {
+  text-align: center;
+  padding: 10px;
+  gap: 20px;
+  flex: 20%;
+}
+
+@media (max-width: 325px) {
+  .flex-item {
+    flex: 100%;
+  }
 }
 
 nav a{
@@ -49,8 +59,8 @@ footer a{
 
 .contact {
     display: flex;
-    width: 70px;
-    height:50px;
+    width: 50px;
+    height:34px;
     position: relative;
     margin: 0 auto;
 }
